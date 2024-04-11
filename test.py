@@ -65,7 +65,7 @@ async def main(url):
 
 
 if __name__ == "__main__":
-    target = "http://192.168.71.128"
+    target = "http://192.99.215.104"
     port = 80
 
     setup()
@@ -73,7 +73,7 @@ if __name__ == "__main__":
     header, url = get_header(target)
 
     while 1:
-        asyncio.run(main("http://192.168.71.128"))
+        asyncio.run(main("http://192.99.215.104"))
 
     
 
